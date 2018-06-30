@@ -272,13 +272,27 @@ footer {
         transition:1s;
     }
 
+    #whiteBox div a {
+        margin-left:-285px;
+        font-size:20px;
+        text-decoration: none;
+        color:black;
+        position: absolute;
+        margin-top: 238px;
+        z-index: 20;
+        padding-left: 52px;
+        padding-right: 52px;
+        background-color: #777;
+        opacity: 0.75;  
+    }
+
     .pic_01 .txt {
         color:black;
         font-size: 24.2px;
         margin-top: 238px;
         margin-left: 25px;
-        padding-left: 10px;
-        padding-right:10px;
+        padding-left: 3px;
+        padding-right:32px;
         position:absolute;
         z-index:15;
         background-color:grey;
@@ -286,18 +300,36 @@ footer {
     }
 
     .pic_01 .pic_1 {
+        padding-bottom:7px;
         width: 280px;
         height:240px;
         margin-top:30px;
         position: relative;
         transition:1s;
+        box-shadow: 5px 5px #666;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 15px;
+        
     }
+
+
+    #whiteBox div a:hover {
+        background-color: #696969;
+        box-shadow: 0 5px #708090;
+    }
+
+    #whiteBox div a:active {
+        background-color: #708090;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
 
     .pic_02 .txt {
         color:black;
         font-size: 24.2px;
         margin-top: 238px;
-        margin-left: 349px;
+        margin-left: 315px;
         padding-left: 89px;
         padding-right:89px;
         position:absolute;
@@ -319,7 +351,7 @@ footer {
         color:black;
         font-size: 24.2px;
         margin-top: 240px;
-        margin-left: 669px;
+        margin-left: 636px;
         padding-left: 82px;
         padding-right:82px;
         position:absolute;
@@ -340,7 +372,7 @@ footer {
         color:black;
         font-size: 24.2px;
         margin-top: 240px;
-        margin-left: 993px;
+        margin-left: 961px;
         padding-left: 61px;
         padding-right:61px;
         position:absolute;
@@ -1237,7 +1269,20 @@ footer {
         
     }
 
-
+    #whiteBox div a {
+        margin-left:8px;
+        display: block;
+        font-size:40px;
+        text-decoration: none;
+        color:black;
+        position: absolute;
+        margin-top: 290px;
+        z-index: 20;
+        padding-left: 81px;
+        padding-right: 81px;
+        background-color: #777;
+        opacity: 0.75;  
+    }
 
 
     .pic_01 .txt {
