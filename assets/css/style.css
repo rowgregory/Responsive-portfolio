@@ -259,280 +259,6 @@ footer {
         background-color: #215796;
     }
 
-    #whiteBox {
-        margin: 40px 130px 100px 60px;
-        background: #708090;
-        background-repeat: no-repeat;
-        background-size:cover;
-        height: 850px;
-        transition:1s;
-        margin-right:160px;
-    }
-
-    #contact {
-        font-size: 30px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        padding: 15px 0px 10px 15px;
-        transition:1s;
-    }
-
-    #whiteBox .u4g div a{
-        margin-left:-285px;
-        font-size:20px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 238px;
-        z-index: 20;
-        padding-left: 80px;
-        padding-right: 82px;
-        background-color: #777;
-        opacity: 0.75;  
-    }
-
-    #whiteBox .wgg div a {
-        margin-left:-285px;
-        font-size:20px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 238px;
-        z-index: 20;
-        padding-left: 50px;
-        padding-right: 52px;
-        background-color: #777;
-        opacity: 0.75;  
-    }
-
-    
-
-    .pic_01 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 238px;
-        margin-left: 25px;
-        padding-left: 300px;
-        padding-right:32px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_01 .pic_1 {
-        padding-bottom:7px;
-        width: 280px;
-        height:240px;
-        margin-top:30px;
-        position: relative;
-        transition:1s;
-        box-shadow: 5px 5px #666;
-        padding-left: 5px;
-        padding-right: 5px;
-        border-radius: 15px;
-        
-    }
-
-
-    #whiteBox div a:hover {
-        background-color: #696969;
-        box-shadow: 0 5px #708090;
-    }
-
-    #whiteBox div a:active {
-        background-color: #708090;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-      }
-
-    .pic_02 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 238px;
-        margin-left: 315px;
-        padding-left: 89px;
-        padding-right:89px;
-        position:absolute;
-        z-index:15;
-        background-color:#666;
-        transition:1s;
-    }
-
-    .pic_02 .pic_2 {
-        padding-bottom:7px;
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
-        margin-left: 20px;
-        position: relative;
-        transition:1s;
-        box-shadow: 5px 5px #666;
-        padding-left: 5px;
-        padding-right: 5px;
-        border-radius: 15px;
-    }
-
-    .pic_03 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 240px;
-        margin-left: 636px;
-        padding-left: 82px;
-        padding-right:82px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_03 .pic_3 {
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
-        position: relative;
-        transition:1s;
-        margin-left:12px;
-    }
-
-    .pic_04 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 240px;
-        margin-left: 961px;
-        padding-left: 61px;
-        padding-right:61px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_04 .pic_4 {
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
-        position: relative;
-        transition:1s;
-    }
-
-    .pic_05 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 560px;
-        margin-left: 26px;
-        padding-left: 77px;
-        padding-right:77px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_05 .pic_5 {
-        width: 280px;
-        height: 240px;
-        margin-top:50px;
-        position: relative;
-        transition:1s;
-        margin-left:-15px;
-    } 
-}
-
-@media only screen and (max-width: 1430px) {
-
-
-
-/*------------portfolio.html------------------------------------!1430!---------------portfolio.html------*/
-
-
-    .pic_04 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 530px;
-        margin-left: 23px;
-        padding-left: 61px;
-        padding-right:61px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_04 .pic_4 {
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
-        position: relative;
-        transition:1s;
-        margin-left:0px;
-    }
-
-    .pic_05 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 530px;
-        margin-left: 350px;
-        padding-left: 77px;
-        padding-right:77px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_05 .pic_5 {
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
-        position: relative;
-        transition:1s;
-        margin-left:0px;
-    }
-
-@media only screen and (max-width: 1103px) {
-
-
-    .pic_03 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 530px;
-        margin-left: 23px;
-        padding-left: 82px;
-        padding-right:82px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_05 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 840px;
-        margin-left: 26px;
-        padding-left: 77px;
-        padding-right:77px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_04 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 530px;
-        margin-left: 348px;
-        padding-left: 61px;
-        padding-right:61px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-}
 
 
 @media only screen and (max-width: 980px) {
@@ -670,140 +396,156 @@ nav li {
     padding-right:50px;
 }
 
-    body {
-        background-color: #777;
-    }
-
-    #whiteBox {
-        margin: 20px auto 100px 60px;
-        background: url(../images/gradient_deepblue.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 1250px;
-        transition:1s;
-        
-        margin-right:100px;
-    }
-
-    #contact {
-        font-size: 40px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        padding: 15px 0px 10px 15px;
-        transition:1s;
-        
-    }
-
-    .pic_01 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 238px;
-        margin-left: 25px;
-        padding-left: 10px;
-        padding-right:10px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_01 .pic_1 {
-        width: 280px;
-        height:240px;
-        margin-top:30px;
-        position: relative;
-        transition:1s;
-    }
-
-    .pic_02 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 238px;
-        margin-left: 349px;
-        padding-left: 89px;
-        padding-right:89px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_02 .pic_2 {
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
-        
-        position: relative;
-        transition:1s;
-    }
-
-    .pic_03 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 570px;
-        margin-left: 4px;
-        padding-left: 82px;
-        padding-right:82px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_03 .pic_3 {
-        width: 280px;
-        height: 240px;
-        margin-top:60px;
-        position: relative;
-        transition:1s;
-        margin-left:-20px;
-    }
-
-    .pic_04 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 570px;
-        margin-left: 318px;
-        padding-left: 61px;
-        padding-right:61px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_04 .pic_4 {
-        width: 280px;
-        height: 240px;
-        margin-top:60px;
-        position: relative;
-        transition:1s;
-        margin-left:-10px;
-    }
-
-    .pic_05 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 890px;
-        margin-left: 4px;
-        padding-left: 77px;
-        padding-right:77px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_05 .pic_5 {
-        width: 280px;
-        height: 240px;
-        margin-top:50px;
-        position: relative;
-        transition:1s;
-        margin-left:-20px;
-    }
+body {
+    background-color: #777;
 }
+
+#whiteBox {
+    background:#234;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    height:200vh;
+}
+
+#contact.port {
+    margin-top:5vh;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align:left;
+    
+}
+
+.pic_01 {
+    max-width: 40vw;
+    height:20vh;
+    float:center;
+    margin-top:10vh;
+    position: relative;
+     
+}
+
+#whiteBox .pic_01 div a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 40vh;
+    z-index: 20;
+    padding-left: 4vw;
+    padding-right: 3vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:2.5vw;  
+    font-size:2rem; 
+    margin-top:35vh;
+}
+
+.pic_02 .pic_2{
+    max-width: 40vw;
+    height:60vh;
+    float:right;
+    margin-top:-20vh;
+    position: relative;
+    margin-right:2vw;  
+}
+
+#whiteBox .pic_02 div a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 30vh;
+    z-index: 20;
+    padding-left: 10vw;
+    padding-right: 11vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:44vw;  
+    font-size:2rem;
+    margin-top:15vh;
+    
+}
+
+.pic_03 .pic_3{
+    max-width: 36vw;
+    height:60vh;
+    float:left;
+    margin-top:5vh;
+    position: relative;
+    
+}
+
+#whiteBox .pic_03 div a {
+    display: block;
+    font-size:40px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 68vh;
+    z-index: 20;
+    padding-left: 8vw;
+    padding-right: 9.5vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:2.5vw;  
+    font-size:2rem; 
+}
+
+.pic_04 .pic_4{
+    max-width: 40vw;
+    height:60vh;
+    float:right;
+    margin-top:5vh;
+    position: relative;
+    margin-right:2vw;  
+}
+
+#whiteBox .pic_04 div a {
+    display: block;
+    font-size:40px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 68vh;
+    z-index: 20;
+    padding-left: 9vw;
+    padding-right: 10vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:44vw;  
+    font-size:2rem; 
+}
+
+.pic_05 .pic_5{
+    max-width: 36vw;
+    height:60vh;
+    float:left;
+    margin-top:5vh;
+    position: relative;
+     
+}
+
+#whiteBox .pic_05 div a {
+    display: block;
+    font-size:40px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 115vh;
+    z-index: 20;
+    padding-left: 10vw;
+    padding-right: 9vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:2.5vw;  
+    font-size:2rem; 
+}
+
+    
 
 @media only screen and (max-width: 768px) {
 
@@ -946,210 +688,152 @@ nav li {
     margin-top: 10px;
 }
 
-    #whiteBox {
-        margin: 20px 45px 100px 20px;
+     #whiteBox {
+        margin:5vw;
         background:  url(../images/gradient_silver.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 2250px;
         transition:1s;
         height:1250px;
-    }
+    } 
 
-    /* div #contact .port{
-        font-size: 60px;
+    #contact {
+        font-size: 40px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        padding: 15px 10px 10px 15px;
-        transition:1s;
-    } */
-
-    .pic_01 .txt {
-        color:black;
-        font-size: 24.2px;
-        margin-top: 230px;
-        margin-left: 25px;
-        padding-left: 10px;
-        padding-right:10px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
+        color:white;
+        text-align:center;
     }
 
-    .pic_01 .pic_1 {
-        width: 280px;
-        height:240px;
-        margin-top:30px;
+    .pic_01 {
+        max-width: 40vw;
+        height:20vh;
+        float:center;
+        margin-top:40px;
         position: relative;
-        transition:1s;
-        margin-left:0px;
+        margin-left:2vw;  
     }
-
-    .pic_02 .txt {
+    
+    #whiteBox .pic_01 div a {
+        display: block;
+        font-size:40px;
+        text-decoration: none;
         color:black;
-        font-size: 24.2px;
-        margin-top: 230px;
-        margin-left: 349px;
-        padding-left: 89px;
-        padding-right:89px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
+        position: absolute;
+        margin-top: 35vh;
+        z-index: 20;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        background-color: #777;
+        opacity: 0.75;  
+        margin-left:4vw;  
+        font-size:1rem; 
+    } 
 
-    .pic_02 .pic_2 {
-        width: 280px;
-        height: 240px;
-        margin-top:30px;
+    .pic_02 .pic_2{
+        max-width: 38vw;
+        height:38vh;
+        float:right;
+        margin-top:-42.5vh;
         position: relative;
-        transition:1s;
-        margin-left:20px;
+        margin-right:5vw;  
     }
-
-    .pic_03 .txt {
+    
+    #whiteBox .pic_02 div a {
+        display: block;
+        font-size:40px;
+        text-decoration: none;
         color:black;
-        font-size: 24.2px;
-        margin-top: 570px;
-        margin-left: 0px;
-        padding-left: 82px;
-        padding-right:82px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
+        position: absolute;
+        margin-top: 15vh;
+        z-index: 20;
+        padding-left: 12vw;
+        padding-right: 13vw;
+        background-color: #777;
+        opacity: 0.75;  
+        margin-left:45vw;  
+        font-size:1rem; 
+        float:right;
+    } 
 
-    .pic_03 .pic_3 {
-        width: 280px;
-        height: 240px;
-        margin-top:60px;
+    .pic_03 .pic_3{
+        max-width: 36vw;
+        height:50.5vh;
+        float:left;
+        margin-top:2vh;
         position: relative;
-        transition:1s;
-        
+        margin-left:2vw; 
     }
-
-    .pic_04 .txt {
+    
+    #whiteBox .pic_03 div a {
+        display: block;
+        font-size:40px;
+        text-decoration: none;
         color:black;
-        font-size: 24.2px;
-        margin-top: 570px;
-        margin-left: 308px;
-        padding-left: 61px;
-        padding-right:61px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
+        position: absolute;
+        margin-top: 65vh;
+        z-index: 20;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: #777;
+        opacity: 0.75;  
+        margin-left:7vw; 
+        font-size:1rem;  
+    } 
 
-    .pic_04 .pic_4 {
-        width: 280px;
-        height: 240px;
-        margin-top:60px;
+    .pic_04 .pic_4{
+        max-width: 38vw;
+        height:50.5vh;
+        float:right;
+        margin-top:-48vh;
         position: relative;
-        transition:1s;
-        margin-left:-15px;
+        margin-right:5vw;   
     }
-
-    .pic_05 .txt {
+    
+    #whiteBox .pic_04 div a {
+        display: block;
+        font-size:40px;
+        text-decoration: none;
         color:black;
-        font-size: 24.2px;
-        margin-top: 910px;
-        margin-left: 26px;
-        padding-left: 77px;
-        padding-right:77px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-        margin-left:0px;
-    }
+        position: absolute;
+        margin-top: 65vh;
+        z-index: 20;
+        padding-left: 13vw;
+        padding-right: 11vw;
+        background-color: #777;
+        opacity: 0.75;  
+        margin-left:45vw; 
+        font-size:1rem;    
+    } 
 
-    .pic_05 .pic_5 {
-        width: 280px;
-        height: 240px;
-        margin-top:70px;
+    .pic_05 .pic_5{
+        max-width: 36vw;
+        height:50.5vh;
+        float:left;
+        margin-top:2vh;
         position: relative;
-        transition:1s;
-        
+        margin-left:2vw;   
     }
-}
-
-@media only screen and (max-width: 720px) {
-
-/*------------portfolio.html............................................!700!-----------------portfolio.html---*/
-
-/* #whiteBox {
-    margin: 20px 30px 100px 20px;
-    background-color: black;
-    height: 119rem;
-    transition:1s;
-} */
-
-.pic_02 .pic_2 {
-    width: 280px;
-    height: 240px;
-    margin-top:30px;
-    position: relative;
-    transition:3s;
-}
-
-.pic_02 .txt {
-    color:black;
-    font-size: 24.2px;
-    margin-top: 535px;
-    margin-left: 26px;
-    padding-left: 89px;
-    padding-right:89px;
-    position:absolute;
-    z-index:15;
-    background-color:grey;
-    transition:1s;
-}
-
-.pic_03 .txt {
-    color:black;
-    font-size: 24.2px;
-    margin-top: 870px;
-    margin-left: 25px;
-    padding-left: 82px;
-    padding-right:82px;
-    position:absolute;
-    z-index:15;
-    background-color:grey;
-    transition:1s;
-}
-
-.pic_04 .txt {
-    color:black;
-    font-size: 24.2px;
-    margin-top: 1210px;
-    margin-left: 26px;
-    padding-left: 61px;
-    padding-right:61px;
-    position:absolute;
-    z-index:15;
-    background-color:grey;
-    transition:1s;
-}
+    
+    #whiteBox .pic_05 div a {
+        display: block;
+        font-size:40px;
+        text-decoration: none;
+        color:black;
+        position: absolute;
+        margin-top: 115vh;
+        z-index: 20;
+        padding-left: 13vw;
+        padding-right: 12vw;
+        background-color: #777;
+        opacity: 0.75;  
+        margin-left:5.5vw; 
+        font-size:1rem;  
+    } 
 
 
-
-.pic_05 .txt {
-    color:black;
-    font-size: 24.2px;
-    margin-top: 1530px;
-    margin-left: 26px;
-    padding-left: 77px;
-    padding-right:77px;
-    position:absolute;
-    z-index:15;
-    background-color:grey;
-    transition:1s;
-}
-
+    
 
 @media only screen and (max-width: 640px) {
 
@@ -1235,8 +919,6 @@ nav li {
     /*-----------index.hmtl---------------------------------------!640!----------index.html------------*/
 
     
-
-
     body {
         background-image: url(assets/images/gradient_silver.png);
         background-repeat: no-repeat;
@@ -1281,18 +963,19 @@ nav li {
         font-family: Arial, Helvetica, sans-serif;
         background: url(https://wallpapercave.com/wp/pmhRTcZ.jpg);
         color: black;
-        padding-top: 30px;  
+        padding-top: 60px;  
         transition: 1s;
         padding-bottom: 45px; 
         margin-bottom: 150px; 
         margin-left:40px;
         width:auto;
+        
     }
 
     .pic {
         transform:scale(1.5);
         margin-left: 150px;
-        margin-top: 69px;
+        margin-top: 80px;
         transition: 3s;
         width:auto;
         border: 1.5px black solid;
@@ -1312,205 +995,147 @@ nav li {
     font-size: 40px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color:#217DB1;
-    padding: 15px 0px 10px 15px;
-    transition:1s;
+    color:#234;
+    margin-top:15vh;   
     text-align:center;
 }
 
+#whiteBox{
+    height: 400vh;
+    
+}
+
 nav li {
-    margin-top:15px;
-    margin-left:50px;
+    margin-top:5vh;
+    margin-left:2vw;
     
 }
 
-#whiteBox {
-    height: 2300px;
+.pic_01 {
+    max-width: 100vw;
+    float:center;
+    margin-top:40px;
+    position: relative;
+    margin-left:2vw;  
 }
-/* #whiteBox ._white {
-    height:3000px;
-} */
 
-#whiteBox .u4g2 div a{
-    margin-left:-5px;
-    font-size:20px;
+#whiteBox .pic_01 div a {
+    display: block;
+    font-size:40px;
     text-decoration: none;
     color:black;
     position: absolute;
-    margin-top: 750px;
+    margin-top: 50vh;
     z-index: 20;
-    padding-left: 200px;
-    padding-right: 206px;
+    padding-left: 17vw;
+    padding-right: 17vw;
     background-color: #777;
     opacity: 0.75;  
+    margin-left:4vw;  
+    font-size:2rem; 
+} 
+
+.pic_02 .pic_2 {
+    max-width: 100vw;
+    
+    margin-top:2vh;
+    position: relative;
+    margin-right:1vw;
 }
 
-#whiteBox .wgg2 div a {
-    margin-left:-5px;
-    font-size:20px;
+#whiteBox .pic_02 div a {
+    display: block;
+    font-size:40px;
     text-decoration: none;
     color:black;
     position: absolute;
-    margin-top: 345px;
+    margin-top: 90vh;
     z-index: 20;
-    padding-left:170px;
-    padding-right: 176px;
+    padding-left: 25vw;
+    padding-right: 27vw;
     background-color: #777;
     opacity: 0.75;  
+    margin-left:5vw;  
+    font-size:2rem; 
+} 
+
+.pic_03 .pic_3 {
+    max-width: 100vw;
+    float:center;
+    margin-top:5vh;
+    position: relative;
+    margin-left:1vw;  
 }
 
-    #whiteBox .port {
-        margin: 50px 20px 500px 10px;
-        padding-bottom:400px;
-        
-        transition:1s;
-        
-    }
+#whiteBox .pic_03 div a {
+    display: block;
+    font-size:40px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 68vh;
+    z-index: 20;
+    padding-left: 26vw;
+    padding-right: 27vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:4vw;  
+    font-size:2rem; 
+    margin-top:150vh;
+}
 
-    /* #contact {
-        font-size: 30px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        padding: 15px 0px 10px 15px;
-        transition:1s;
-        
-    } */
+.pic_04 .pic_4 {
+    max-width: 100vw;
+    
+    margin-top:5vh;
+    position: relative;
+    margin-right:1vw;  
+}
 
-    #whiteBox div a {
-        margin-left:8px;
-        display: block;
-        font-size:40px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 290px;
-        z-index: 20;
-        padding-left: 81px;
-        padding-right: 81px;
-        background-color: #777;
-        opacity: 0.75;  
-    }
+#whiteBox .pic_04 div a {
+    display: block;
+    font-size:40px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 125vh;
+    z-index: 20;
+    padding-left: 23vw;
+    padding-right: 23vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:6vw;  
+    font-size:2rem; 
+    margin-top:210vh;
+}
 
+.pic_05 .pic_5 {
+    max-width: 100vw;
+    float:center;
+    margin-top:5vh;
+    position: relative;
+    margin-left:2vw;  
+}
 
-    /* .pic_01 .txt {
-        color:black;
-        font-size: 40px;
-        margin-top: 275px;
-        margin-left: 25px;
-        padding-left: 46px;
-        padding-right:46px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    } */
-
-    .pic_01 .pic_1 {
-        width: 525px;
-        height:400px;
-        margin-top:40px;
-        position: relative;
-        transition:1s;
-        margin-left:-10px;
-    }
-
-    .pic_02 .txt {
-        color:black;
-        font-size: 40px;
-        margin-top: 465px;
-        margin-left: 26px;
-        padding-left: 178px;
-        padding-right:177px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_02 .pic_2 {
-        width: 525px;
-        height:400px;
-        margin-top:70px;
-        position: relative;
-        transition:1s;
-        margin-left:-10px;
-        
-    }
-
-    .pic_03 .txt {
-        color:black;
-        font-size: 40px;
-        margin-top: 1100px;
-        margin-left: -5px;
-        padding-left: 166px;
-        padding-right:166px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-   
-
-    .pic_03 .pic_3 {
-        width: 525px;
-        height:400px;
-        margin-top:60px;
-        position: relative;
-        transition:1s;
-        margin-left:-30px;
-    }
-
-    .pic_04 .txt {
-        color:black;
-        font-size: 40px;
-        margin-top: 1550px;
-        margin-left: -5px;
-        padding-left: 131px;
-        padding-right:131px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_04 .pic_4 {
-        width: 525px;
-        height:400px;
-        margin-top:70px;
-        position: relative;
-        transition:1s;
-        margin-left:-30px;
-    }
-
-    .pic_05 .txt {
-        color:black;
-        font-size: 40px;
-        margin-top: 1980px;
-        margin-left: -5px;
-        padding-left: 159px;
-        padding-right:159px;
-        position:absolute;
-        z-index:15;
-        background-color:grey;
-        transition:1s;
-    }
-
-    .pic_05 .pic_5 {
-        width: 525px;
-        height:400px;
-        margin-top:70px;
-        position: relative;
-        transition:1s;
-        margin-bottom:75px;
-        margin-left:-30px;
-    }
+#whiteBox .pic_05 div a {
+    display: block;
+    font-size:40px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    margin-top: 190vh;
+    z-index: 20;
+    padding-left: 26vw;
+    padding-right: 27vw;
+    background-color: #777;
+    opacity: 0.75;  
+    margin-left:6vw;  
+    font-size:2rem; 
+    margin-top:270vh;
+}
     
 
-}
-}
-}
+
 
 
 
