@@ -268,7 +268,7 @@ footer {
           font-family:Arial, Helvetica, sans-serif;
           font-size:14px;
       }
-
+    }
 
 @media only screen and (max-width: 988px) {
 
@@ -858,8 +858,9 @@ h1 {
 
 
     .pic {
-        width:60vw;
+        width:70vw;
         margin:0 auto;
+        margin-left:12vw;
     }
 
     .bio {
@@ -868,6 +869,7 @@ h1 {
         margin:0 auto;
         line-height:9vw;
         margin-top:  30vw;
+        margin-left:8vw;
         margin-bottom:  30vw;
         
     }
@@ -938,6 +940,7 @@ h1 {
       }
     
       .titlePort{
+        text-align:center;
         left:-9vw;
         padding:35vw;
         height:10vw;
