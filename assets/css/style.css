@@ -159,7 +159,20 @@ footer {
     }
 
     /*------------index.html------------------------------!2500!------------------index.html------------*/
+    .pic {
+        width:60vw;
+        margin:0 auto;
+    }
 
+    .bio {
+        width:80vw;
+        text-indent:7vw;
+        margin:0 auto;
+        line-height:9vw;
+        margin-top:  30vw;
+        margin-bottom:  30vw;
+        
+    }
 
 
     
@@ -332,7 +345,20 @@ footer {
     /*------------index.html----------------------------------(988)-----*/
 
 
-    
+    .pic {
+        width:60vw;
+        margin:0 auto;
+    }
+
+    .bio {
+        width:80vw;
+        text-indent:7vw;
+        margin:0 auto;
+        line-height:9vw;
+        margin-top:  30vw;
+        margin-bottom:  30vw;
+        
+    }
 
     
 
@@ -513,7 +539,20 @@ footer {
 
     /*---------------Index.html--------------------------------!768!---------------Index.html-------------*/
 
+    .pic {
+        width:60vw;
+        margin:0 auto;
+    }
 
+    .bio {
+        width:80vw;
+        text-indent:7vw;
+        margin:0 auto;
+        line-height:9vw;
+        margin-top:  30vw;
+        margin-bottom:  30vw;
+        
+    }
     
 
     
@@ -619,18 +658,17 @@ h1 {
 
     
 
-@media only screen and (max-width: 640px) {
+/* @media only screen and (max-width: 640px) { */
 
     /*-----------contact.html-----------------------------------------------!640!------------contact.html---*/
 
-    .changeMe {
-        background-color: #777;
-    }
+    
 
-    #formBox {
+    /* #formBox {
+        width:82vw;
         height: 500px;
         background: url(https://wallpapercave.com/wp/pmhRTcZ.jpg);
-        margin: 70px 30px 100px 30px;
+        margin: 70px 30px 100px 20px;
         padding-left: 20px;
         padding-top: 15px;
         font-size: 28px;
@@ -639,6 +677,7 @@ h1 {
     }
 
     .formTxt  {
+        width:20vw;
         font-size: 17px;
         font-family: Arial, Helvetica, sans-serif;
         color:black;
@@ -690,13 +729,26 @@ h1 {
         background-color:rgb(26, 90, 128);
         border:2px solid #777;
         padding:5px;  
-    }
+    } */
 
 
     /*-----------index.hmtl---------------------------------------!640!----------index.html------------*/
 
     
-    
+    /* .pic {
+        width:60vw;
+        margin:0 auto;
+    }
+
+    .bio {
+        width:80vw;
+        text-indent:7vw;
+        margin:0 auto;
+        line-height:9vw;
+        margin-top:  30vw;
+        margin-bottom:  30vw;
+        
+    } */
 
    
 
@@ -709,7 +761,7 @@ h1 {
 
 
 
-nav li{
+/* nav li{
     background: #234;
     padding-right:15px;
     margin-left:.5vw;
@@ -735,7 +787,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     float: left; 
 }
-}
+
 
 #main-container {
     background: url(../images/gradient_deepblue.jpg);
@@ -800,7 +852,7 @@ h1 {
       font-family:Arial, Helvetica, sans-serif;
       font-size:14px;
   }
-}
+} */
 
 @media only screen and (max-width: 375px) {
 
@@ -853,7 +905,7 @@ h1 {
         font-size:50px;
         background: rgb(28, 42, 56);
         height:100px;
-        margin-left:18vw;
+        margin-left:17vw;
         border-radius: 0px 0px 20px 20px;
         
         text-align:center;
@@ -879,21 +931,19 @@ h1 {
         align-items: center;
         margin-top:4vw;
         margin-left:3vw;
+        margin-bottom:40vw;
         
-        margin-bottom:27vw;
         width:94vw;
         background: rgba(0,0,0,0.4);
       }
     
       .titlePort{
-        padding-top:30vw;
-        padding-right:4vw;
-        padding-left:5.5vw;
-        margin-right:-9vw;
         left:-9vw;
-        height:50vw;
+        padding:35vw;
+        height:10vw;
+        width:30vw;
         margin-top:40vw;
-        margin-bottom:30vw;
+        margin-bottom:40vw;
         font-size:30px;
         position: relative;
         font-family: Arial, Helvetica, sans-serif;
