@@ -160,7 +160,7 @@ footer {
 
     /*------------index.html------------------------------!2500!------------------index.html------------*/
     .pic {
-        width:60vw;
+        width:30vw;
         margin:0 auto;
     }
 
@@ -270,7 +270,7 @@ footer {
       }
     }
 
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 980px) {
 
     /*-----------contact.html-------------------------------------!980!-----------contact.html-------------*/
 
@@ -336,16 +336,19 @@ footer {
 
     input[type=submit] {
         font-family:Arial, Helvetica, sans-serif;
-        font-size:16px;
-        background-color:#217DB1;
-        border:2px solid #777;
-        padding:5px;  
+        font-size:14px;
+        background-color:rgb(6, 57, 87);
+        color:white;
+        border-radius:12px;;
+        padding:3vw;  
+        margin-bottom:5vw;
+    } 
     }
 
     /*------------index.html----------------------------------(988)-----*/
 
 
-    .pic {
+    /* .pic {
         width:60vw;
         margin:0 auto;
     }
@@ -358,7 +361,7 @@ footer {
         margin-top:  30vw;
         margin-bottom:  30vw;
         
-    }
+    } */
 
     
 
@@ -380,12 +383,13 @@ footer {
     }
 
     h1 {
+        margin-top:3vw;
         padding:10px 30px 0px 30px;
         font-size:32px;
         background: rgb(28, 42, 56);
         height:43px;
         margin-left: 4vw;
-        
+        border-radius: 0px 0px 20px 20px;
         text-align:center;
         color:#ebebeb; 
         font-family: Arial, Helvetica, sans-serif;
@@ -531,26 +535,32 @@ footer {
 
     input[type=submit] {
         font-family:Arial, Helvetica, sans-serif;
-        font-size:16px;
-        background-color:#217DB1;
-        border:2px solid #777;
-        padding:5px;  
+        font-size:14px;
+        background-color:rgb(6, 57, 87);
+        color:white;
+        border-radius:12px;;
+        padding:3vw;  
+        margin-bottom:5vw;
+    } 
     }
 
     /*---------------Index.html--------------------------------!768!---------------Index.html-------------*/
 
     .pic {
-        width:60vw;
-        margin:0 auto;
+        margin:4vw;
+        width:35vw;
+        float:left;
+        
     }
 
     .bio {
-        width:80vw;
+        font-size:14px;
+        width:90vw;
         text-indent:7vw;
-        margin:0 auto;
-        line-height:9vw;
-        margin-top:  30vw;
-        margin-bottom:  30vw;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height:4vw;
+        margin-top:3vw;
+        margin-bottom:  20vw;
         
     }
     
@@ -579,7 +589,7 @@ h1 {
     padding:10px 30px 0px 30px;
     font-size:32px;
     background: rgb(28, 42, 56);
-    height:43px;
+    height:100px;
     margin-left: 4vw;
     
     text-align:center;
@@ -600,11 +610,12 @@ h1 {
   }
 
   .main-section {
+      padding:2vw;
     display:inline-grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-top:4vw;
-    margin-left:4vw;
+    margin-left:3vw;
     margin-right:3vw;
     margin-bottom:7vw;
     width:90vw;
@@ -731,24 +742,39 @@ h1 {
         padding:5px;  
     } */
 
+    input[type=submit] {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        background-color:rgb(6, 57, 87);
+        color:white;
+        border-radius:12px;;
+        padding:3vw;  
+        margin-bottom:5vw;
+    }
+
 
     /*-----------index.hmtl---------------------------------------!640!----------index.html------------*/
 
     
-    /* .pic {
-        width:60vw;
-        margin:0 auto;
+    .pic {
+        display: inline-block;
+        width:50vw;
+        margin-top:20vw;;
+        margin-left:20vw;
+        align-items: center;
     }
 
     .bio {
-        width:80vw;
+        
+        font-family:Arial, Helvetica, sans-serif;
+        width:60vw;
         text-indent:7vw;
-        margin:0 auto;
-        line-height:9vw;
+        margin-left: 16vw;
+        line-height:5vw;
         margin-top:  30vw;
         margin-bottom:  30vw;
         
-    } */
+    }
 
    
 
@@ -761,7 +787,7 @@ h1 {
 
 
 
-/* nav li{
+nav li{
     background: #234;
     padding-right:15px;
     margin-left:.5vw;
@@ -770,27 +796,28 @@ h1 {
 }
 
 nav ul {
-    margin-right:-2vw; 
-    transition:0.3s;  
+    margin-right:4vw;
+      
     
 }
 
 h1 {
+    margin-top:3vw;
     padding:10px 30px 0px 30px;
-    font-size:32px;
+    font-size:40px;
     background: rgb(28, 42, 56);
-    height:43px;
+    height:100px;
     margin-left: 4vw;
-    
+    border-radius: 0px 0px 20px 20px;
     text-align:center;
     color:#ebebeb; 
     font-family: Arial, Helvetica, sans-serif;
     float: left; 
-}*/
+}
 
 
 #main-container {
-    background: url(../images/gradient_deepblue.jpg);
+    background: url(../images/gradient_bluegrid.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -799,29 +826,35 @@ h1 {
     padding:0;
     min-height: calc(100vh - 70px);
   }
-/*
+
   .main-section {
     display:inline-grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-top:10vw;
-    margin-left:4vw;
+    margin-left:3.5vw;
     margin-right:3vw;
     margin-bottom:17vw;
     width:90vw;
     background: rgba(0,0,0,0.4);
   }
 
-  .titlePort{
-    text-align:center;
-    margin-top:15px;
-    font-size:4vw;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-   }
+  /* .titlePort{
+        text-align:center;
+        left:-9vw;
+        padding:35vw;
+        height:10vw;
+        width:30vw;
+        margin-top:40vw;
+        margin-bottom:40vw;
+        font-size:30px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        background:rgba(255, 255, 255, 0.1);
+       } */
 
-   .work {
+  .work {
     position: relative;
     float: left;
     margin: 20px -10px 25px 30px;;
@@ -852,11 +885,11 @@ h1 {
       font-family:Arial, Helvetica, sans-serif;
       font-size:14px;
   }
-} */
+}
 
 @media only screen and (max-width: 375px) {
 
-/* ================================About Me =============================375 ====
+/*================================About Me =============================375 ====*/
     .pic {
         width:70vw;
         margin:0 auto;
@@ -902,18 +935,15 @@ h1 {
     }
     
     h1 {
-        
         margin-top:13vw;
         font-size:50px;
         background: rgb(28, 42, 56);
         height:100px;
         margin-left:17vw;
         border-radius: 0px 0px 20px 20px;
-        
         text-align:center;
         color:#ebebeb; 
-        font-family: Arial, Helvetica, sans-serif;
-        
+        font-family: Arial, Helvetica, sans-serif; 
     }
     
     #main-container {
@@ -932,7 +962,8 @@ h1 {
         grid-template-columns: 1fr;
         align-items: center;
         margin-top:4vw;
-        margin-left:3vw;
+        margin-left:1vw;
+        margin-right:1vw;
         margin-bottom:40vw;
         
         width:94vw;
