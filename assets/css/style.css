@@ -257,7 +257,7 @@ footer {
 
       .work img {
         width: 90%;
-        height: 35vw;
+        height: 25vw;
         border: 0 none;
 
       } 
@@ -430,7 +430,7 @@ footer {
        }
 
       .work img {
-        width: 90%;
+        width: 80%;
         height: 35vw;
         border: 0 none;
 
@@ -834,7 +834,7 @@ h1 {
 }
 
 #main-container {
-    background: url(../images/gradient_sunset.jpg);
+    background: url(../images/gradient_deepblue.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -846,9 +846,9 @@ h1 {
 
   .main-section {
     display:inline-grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-top:4vw;
+    margin-top:10vw;
     margin-left:4vw;
     margin-right:3vw;
     margin-bottom:17vw;
@@ -873,7 +873,7 @@ h1 {
 
   .work img {
     width: 90%;
-    height: 60vw;
+    height: 38vw;
     border: 0 none;
 
   } 
@@ -955,7 +955,7 @@ h1 {
         align-items: center;
         margin-top:4vw;
         margin-left:3vw;
-        /* margin-right:1vw; */
+        
         margin-bottom:27vw;
         width:94vw;
         background: rgba(0,0,0,0.4);
