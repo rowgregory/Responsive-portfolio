@@ -454,6 +454,7 @@ footer {
           font-family:Arial, Helvetica, sans-serif;
           font-size:14px;
       }
+    }
   
  
   
@@ -641,6 +642,7 @@ h1 {
       font-family:Arial, Helvetica, sans-serif;
       font-size:14px;
   }
+}
 
  
 
@@ -829,6 +831,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     float: left; 
 }
+}
 
 #main-container {
     background: url(../images/gradient_sunset.jpg);
@@ -893,6 +896,7 @@ h1 {
       font-family:Arial, Helvetica, sans-serif;
       font-size:14px;
   }
+}
 
 @media only screen and (max-width: 375px) {
 
@@ -999,6 +1003,7 @@ h1 {
           font-family:Arial, Helvetica, sans-serif;
           font-size:14px;
       }
+}
 
 
 
