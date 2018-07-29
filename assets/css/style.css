@@ -1,29 +1,23 @@
-body {
+/* body {
     max-width: 100%;
     margin:auto;  
-}
+} */
 
-header {
+/* header {
     width: auto;
     background-image: url(assets/images/gradient.jpeg);
     height: 75px;
     margin: 0px;     
+} */
+
+header {
+        
+    background: rgb(28, 42, 56);
+    height: 53px;
+            
 }
 
-h1 {
-    margin-top:0px;
-    padding:0px;
-    background: #217DB1;
-    padding: 20.8px;
-    margin-left: -10px;       
-}
 
-header h1 {
-    font-size: 30px;
-    color:#ebebeb;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;  
-}
 
 nav {
     float:right;   
@@ -31,18 +25,20 @@ nav {
 
 li a{
     text-decoration: none;
-    color: #777;
+    color: rgb(48, 167, 37);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    
 }
     
 
 
 nav li  {
     display: inline-block;
+    /* margin-right: 30vw; */
+    /* padding-top: 8px; */
+    /* position: relative; */
     
-    margin-right: 70px;
-    padding-top: 5px;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #aboutMe {
@@ -63,9 +59,7 @@ nav li  {
     border-color: #cccccc;   
 }
 
-hr {
-    margin:20px;
-}
+
 
 .bio {
     font-size: 14px;
@@ -78,12 +72,12 @@ hr {
     text-indent: 35px;
 }
 
-img {
+/* img {
     max-height: 320px;
     float:left;
     padding: 14px 18px 18px 25px;
     z-index: 10;
-}
+} */
 
 .blue_box {
     position: fixed;
@@ -112,19 +106,15 @@ footer {
 
 
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 2500px) {
 
-/*---------------contact.html---------------------------------------!1700!--------contact.hmtl----------*/
+/*---------------contact.html---------------------------------------!2500!--------contact.hmtl----------*/
     
 
-    .headerColor {
-        background-image: url(assets/images/gradient_silver.png);
-        background-repeat:no-repeat;
-        background-size: cover;
-    }
+  
 
     .changeMe {
-        background-color: #777;
+        background-color: rgb(98, 132, 167);
         transition:1s;
     }
 
@@ -147,13 +137,6 @@ footer {
         font-family: Arial, Helvetica, sans-serif;
         color:black;
         transition:1s;
-    }
-
-    .headerColor {
-        background-color:#777;
-        color:black;
-        margin-left: 20px;
-        transition: 1s; 
     }
 
     input[type=text] {
@@ -200,68 +183,106 @@ footer {
         padding:5px;  
     }
 
-    /*------------index.html------------------------------!1700!------------------index.html------------*/
+    /*------------index.html------------------------------!2500!------------------index.html------------*/
 
 
-    body {
-        background-image: url(assets/images/gradient_green_blue_horizon.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: 1s;
-    }
 
-    header {
-        
-        background-color: #ebebeb;
-        height: 53px;
-        transition: 1s;         
-    }
+    
 
-    h1 {
-        margin-top:0px;
-        padding:0px;
-        background: #217DB1;
-        padding: 9px;
-        margin-left: 60px;
-        transition: 1s;     
-    }
-
-    nav li {
-        
-        transition: 1s; 
-        margin-left: 20px;
-        margin-right: 10px;    
-    }
-
-    #aboutMe {
-        margin-left: 51px;
-        margin-bottom: 150px;
-        width:575px;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #217DB1;
-        border: 1px solid #777;
-        background-color: #ebebeb;
-        text-indent: 21px;
-        padding-left: 10px;
-        transition: 1s;     
-    }
-
-    /*-------------portfolio.html----------------------------------------!1700!-----------portfolio.html--*/
+    /*-------------portfolio.html----------------------------------------!2500!-----------portfolio.html--*/
 
 
     nav li{
-        margin-right:170px;
-        margin-left:60px;
+        background: #234;
+        padding:18px;
+        margin-left:7vw;
+        border-radius:15px;
+        
+    }
+
+    nav ul {
+        margin-right:16vw;   
+    }
+
+    h1 {
+        padding:10px 30px 0px 30px;
+        font-size:32px;
+        background: rgb(28, 42, 56);
+        height:43px;
+        margin-left: 4vw;
+        
+        text-align:center;
+        color:#ebebeb; 
+        font-family: Arial, Helvetica, sans-serif;
+        float: left; 
+    }
+
+    #main-container {
+        background: url(../images/gradient_silverblue.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin:0;
+        padding:0;
+        min-height: calc(100vh - 70px);
+      }
+      
+      .main-section {
+        display:inline-grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top:4vw;
+        margin-left:4vw;
+        margin-right:3vw;
+        margin-bottom:7vw;
+        width:80vw;
+        background: rgba(0,0,0,0.4);
+      }
+      
+      .titlePort{
+        margin-left:28px;
         margin-top:10px;
-    }
-    body {
-        background-color: #215796;
-    }
+        font-size:4vw;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+       }
+
+      .work {
+        position: relative;
+        float: left;
+        margin: 20px -10px 25px 30px;;
+       }
+
+      .work img {
+        width: 90%;
+        height: 35vw;
+        border: 0 none;
+
+      } 
+
+      .work  h3 {
+        position: absolute;
+        bottom: 40px;
+        width: 88.8%;
+        padding:4px;
+        color:white;
+        color: #fff;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        border-bottom: 0;
+      }
+
+      a {
+          color:white;
+          text-decoration:none;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:14px;
+      }
 
 
-
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 988px) {
 
     /*-----------contact.html-------------------------------------!980!-----------contact.html-------------*/
 
@@ -289,13 +310,6 @@ footer {
         transition:1s;
     }
 
-    .headerColor {
-        background-color:#777;
-        color:black;
-        margin-left: 20px;
-        transition: 1s; 
-    }
-
     input[type=text] {
         width:155px;
         box-sizing: border-box;
@@ -340,210 +354,110 @@ footer {
         padding:5px;  
     }
 
-    /*------------index.html--------------*/
+    /*------------index.html----------------------------------(988)-----*/
 
 
-    body {
-        background-image: url(assets/images/gradient_blue_eppora.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: 2s;
+    
+
+    
+
+    
+
+    /*-------------portfolio.html---------------------------------------!988!-------portfolio.html------*/
+
+    nav li{
+        background: #234;
+        padding:18px;
+        margin-left:3vw;
+        border-radius:15px;
+        
     }
 
-    header {
-        
-        background-color: #ebebeb;
-        height: 53px;
-        transition: 1s;         
+    nav ul {
+        margin-right:4vw; 
+        transition:0.3s;  
     }
 
     h1 {
-        margin-top:0px;
-        padding:0px;
-        background: #217DB1;
-        padding: 9px;
-        margin-left: 60px;
-        transition: 1s;     
-    }
-
-    nav li {
+        padding:10px 30px 0px 30px;
+        font-size:32px;
+        background: rgb(28, 42, 56);
+        height:43px;
+        margin-left: 4vw;
         
-        transition: 1s; 
-        margin-left: 20px;
-        margin-right: 10px;    
-    }
-
-    #aboutMe {
-        margin-left: 51px;
-        margin-bottom: 150px;
-        width:575px;
-        font-size: 30px;
+        text-align:center;
+        color:#ebebeb; 
         font-family: Arial, Helvetica, sans-serif;
-        color: #217DB1;
-        border: 1px solid #777;
-        background-color: #ebebeb;
-        text-indent: 21px;
-        padding-left: 10px;
-        transition: 1s;     
+        float: left; 
     }
 
-    /*-------------portfolio.html---------------------------------------!980!-------portfolio.html------*/
+    #main-container {
+        background: url(../images/gradient_blue_eppora.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin:0;
+        padding:0;
+        min-height: calc(100vh - 70px);
+      }
+  
+      .main-section {
+        display:inline-grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top:4vw;
+        margin-left:4vw;
+        margin-right:3vw;
+        margin-bottom:7vw;
+        width:90vw;
+        background: rgba(0,0,0,0.4);
+      }
 
-nav li {
-    margin-top:10px;
-    margin-right:60px;
-    /* margin-left: 40px; */
-    padding-right:50px;
-}
+      .titlePort{
+        margin-left:28px;
+        margin-top:15px;
+        font-size:4vw;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+       }
 
-body {
-    background-color: #777;
-}
+       .work {
+        position: relative;
+        float: left;
+        margin: 20px -10px 25px 30px;;
+       }
 
-#whiteBox {
-    background:#234;
-    margin-left: 6vw;
-    margin-right: 6vw;
-    height:200vh;
-}
+      .work img {
+        width: 90%;
+        height: 35vw;
+        border: 0 none;
 
-#contact.port {
-    margin-top:5vh;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    text-align:left;
-    
-}
+      } 
 
-.pic_01 {
-    max-width: 40vw;
-    height:20vh;
-    float:center;
-    margin-top:10vh;
-    position: relative;
-     
-}
+      .work  h3 {
+        position: absolute;
+        bottom: 40px;
+        width: 88.8%;
+        padding:4px;
+        color:white;
+        color: #fff;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        border-bottom: 0;
+      }
 
-#whiteBox .pic_01 div a {
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 40vh;
-    z-index: 20;
-    padding-left: 4vw;
-    padding-right: 3vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:2.5vw;  
-    font-size:2rem; 
-    margin-top:35vh;
-}
+      a {
+          color:white;
+          text-decoration:none;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:14px;
+      }
+  
+ 
+  
 
-.pic_02 .pic_2{
-    max-width: 40vw;
-    height:60vh;
-    float:right;
-    margin-top:-20vh;
-    position: relative;
-    margin-right:2vw;  
-}
-
-#whiteBox .pic_02 div a {
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 30vh;
-    z-index: 20;
-    padding-left: 10vw;
-    padding-right: 11vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:44vw;  
-    font-size:2rem;
-    margin-top:15vh;
-    
-}
-
-.pic_03 .pic_3{
-    max-width: 36vw;
-    height:60vh;
-    float:left;
-    margin-top:5vh;
-    position: relative;
-    
-}
-
-#whiteBox .pic_03 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 68vh;
-    z-index: 20;
-    padding-left: 8vw;
-    padding-right: 9.5vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:2.5vw;  
-    font-size:2rem; 
-}
-
-.pic_04 .pic_4{
-    max-width: 40vw;
-    height:60vh;
-    float:right;
-    margin-top:5vh;
-    position: relative;
-    margin-right:2vw;  
-}
-
-#whiteBox .pic_04 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 68vh;
-    z-index: 20;
-    padding-left: 9vw;
-    padding-right: 10vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:44vw;  
-    font-size:2rem; 
-}
-
-.pic_05 .pic_5{
-    max-width: 36vw;
-    height:60vh;
-    float:left;
-    margin-top:5vh;
-    position: relative;
-     
-}
-
-#whiteBox .pic_05 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 115vh;
-    z-index: 20;
-    padding-left: 10vw;
-    padding-right: 9vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:2.5vw;  
-    font-size:2rem; 
-}
 
     
 
@@ -629,208 +543,106 @@ body {
     /*---------------Index.html--------------------------------!768!---------------Index.html-------------*/
 
 
-    body {
-        background-image: url(assets/images/gradient_silver.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition:3s;
-    }
+    
 
-    #aboutMe {
-        width:auto;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #217DB1;
-        margin-top: 30px;
-        margin-right:45px;
-        background-image: url(assets/images/gradient_silver.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 10px;
-        text-indent: 21px;
-        padding-left: 0px;
-        transition:3s;   
-    }
-
-    nav li {
-        transition: 1s; 
-        margin-right: 60px;  
-    }
-
-    li a {
-        color:black;
-        transition:1s;
-        margin-right:-30px;
-    }
-
-    h1 {
-        background: #217DB1; 
-        transition:1s; 
-        margin-left:50px;
-        
-    }
-
-    header {
-        height: 53px;
-        transition:1s;
-
-    }
+    
 
 /*----------------portfolio.html--------------------------!768!---------------portfolio.html----------*/
 
 
+nav li{
+    background: #234;
+    padding-right:20px;
+    margin-left:.2vw;
+    border-radius:15px;
+    color:white;
+    
+}
+
+nav ul {
+    margin-right:2vw; 
+    transition:0.3s;  
+    
+}
+
 h1 {
-    margin-left:19px;
+    padding:10px 30px 0px 30px;
+    font-size:32px;
+    background: rgb(28, 42, 56);
+    height:43px;
+    margin-left: 4vw;
+    
+    text-align:center;
+    color:#ebebeb; 
+    font-family: Arial, Helvetica, sans-serif;
+    float: left; 
 }
-nav li {
-    margin-left:20px;
-    padding-right:40px;
-    margin-top: 10px;
-}
 
-     #whiteBox {
-        margin:5vw;
-        background:  url(../images/gradient_silver.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 2250px;
-        transition:1s;
-        height:1250px;
-    } 
+#main-container {
+    background: url(../images/gradient_rainbow.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0;
+    padding:0;
+    min-height: calc(100vh - 70px);
+  }
 
-    #contact {
-        font-size: 40px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color:white;
-        text-align:center;
-    }
+  .main-section {
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top:4vw;
+    margin-left:4vw;
+    margin-right:3vw;
+    margin-bottom:7vw;
+    width:90vw;
+    background: rgba(0,0,0,0.4);
+  }
 
-    .pic_01 {
-        max-width: 40vw;
-        height:20vh;
-        float:center;
-        margin-top:40px;
-        position: relative;
-        margin-left:2vw;  
-    }
-    
-    #whiteBox .pic_01 div a {
-        display: block;
-        font-size:40px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 35vh;
-        z-index: 20;
-        padding-left: 8vw;
-        padding-right: 8vw;
-        background-color: #777;
-        opacity: 0.75;  
-        margin-left:4vw;  
-        font-size:1rem; 
-    } 
+  .titlePort{
+    margin-left:28px;
+    margin-top:15px;
+    font-size:4vw;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+   }
 
-    .pic_02 .pic_2{
-        max-width: 38vw;
-        height:38vh;
-        float:right;
-        margin-top:-42.5vh;
-        position: relative;
-        margin-right:5vw;  
-    }
-    
-    #whiteBox .pic_02 div a {
-        display: block;
-        font-size:40px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 15vh;
-        z-index: 20;
-        padding-left: 12vw;
-        padding-right: 13vw;
-        background-color: #777;
-        opacity: 0.75;  
-        margin-left:45vw;  
-        font-size:1rem; 
-        float:right;
-    } 
+   .work {
+    position: relative;
+    float: left;
+    margin: 20px -10px 25px 30px;;
+   }
 
-    .pic_03 .pic_3{
-        max-width: 36vw;
-        height:50.5vh;
-        float:left;
-        margin-top:2vh;
-        position: relative;
-        margin-left:2vw; 
-    }
-    
-    #whiteBox .pic_03 div a {
-        display: block;
-        font-size:40px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 65vh;
-        z-index: 20;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        background-color: #777;
-        opacity: 0.75;  
-        margin-left:7vw; 
-        font-size:1rem;  
-    } 
+  .work img {
+    width: 90%;
+    height: 35vw;
+    border: 0 none;
 
-    .pic_04 .pic_4{
-        max-width: 38vw;
-        height:50.5vh;
-        float:right;
-        margin-top:-48vh;
-        position: relative;
-        margin-right:5vw;   
-    }
-    
-    #whiteBox .pic_04 div a {
-        display: block;
-        font-size:40px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 65vh;
-        z-index: 20;
-        padding-left: 13vw;
-        padding-right: 11vw;
-        background-color: #777;
-        opacity: 0.75;  
-        margin-left:45vw; 
-        font-size:1rem;    
-    } 
+  } 
 
-    .pic_05 .pic_5{
-        max-width: 36vw;
-        height:50.5vh;
-        float:left;
-        margin-top:2vh;
-        position: relative;
-        margin-left:2vw;   
-    }
-    
-    #whiteBox .pic_05 div a {
-        display: block;
-        font-size:40px;
-        text-decoration: none;
-        color:black;
-        position: absolute;
-        margin-top: 115vh;
-        z-index: 20;
-        padding-left: 13vw;
-        padding-right: 12vw;
-        background-color: #777;
-        opacity: 0.75;  
-        margin-left:5.5vw; 
-        font-size:1rem;  
-    } 
+  .work  h3 {
+    position: absolute;
+    bottom: 40px;
+    width: 88.8%;
+    padding:4px;
+    color:white;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-bottom: 0;
+  }
+
+  a {
+      color:white;
+      text-decoration:none;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:14px;
+  }
+
+ 
 
 
     
@@ -919,7 +731,7 @@ nav li {
     /*-----------index.hmtl---------------------------------------!640!----------index.html------------*/
 
     
-    body {
+    /* body {
         background-image: url(assets/images/gradient_silver.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -955,7 +767,7 @@ nav li {
         border: 2px solid black;
         margin-top:6px;
         
-    }
+    } */
 
     #aboutMe {
         
@@ -973,167 +785,224 @@ nav li {
     }
 
     .pic {
-        transform:scale(1.5);
-        margin-left: 150px;
+        
+        /* margin-left: 150px;
         margin-top: 80px;
         transition: 3s;
-        width:auto;
+        width:auto; */
         border: 1.5px black solid;
     }
 
-    .pic:hover {
-        transform:scale(1.2);
-    }
-    .p1 {
+    
+    /* .p1 {
         margin-top: 450px;
         transition: 4s;
-    }
+    } */
 
 /*-------------portfolio.html-------------------------------!640!--------------portfolio.html------------*/
 
-#contact {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#234;
-    margin-top:15vh;   
+
+
+nav li{
+    background: #234;
+    padding-right:15px;
+    margin-left:.5vw;
+    border-radius:15px;
+    
+}
+
+nav ul {
+    margin-right:-2vw; 
+    transition:0.3s;  
+    
+}
+
+h1 {
+    padding:10px 30px 0px 30px;
+    font-size:32px;
+    background: rgb(28, 42, 56);
+    height:43px;
+    margin-left: 4vw;
+    
     text-align:center;
+    color:#ebebeb; 
+    font-family: Arial, Helvetica, sans-serif;
+    float: left; 
 }
 
-#whiteBox{
-    height: 400vh;
-    
-}
+#main-container {
+    background: url(../images/gradient_sunset.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0;
+    padding:0;
+    min-height: calc(100vh - 70px);
+  }
 
-nav li {
-    margin-top:5vh;
-    margin-left:2vw;
-    
-}
+  .main-section {
+    display:inline-grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top:4vw;
+    margin-left:4vw;
+    margin-right:3vw;
+    margin-bottom:17vw;
+    width:90vw;
+    background: rgba(0,0,0,0.4);
+  }
 
-.pic_01 {
-    max-width: 100vw;
-    float:center;
-    margin-top:40px;
+  .titlePort{
+    text-align:center;
+    margin-top:15px;
+    font-size:4vw;
     position: relative;
-    margin-left:2vw;  
-}
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+   }
 
-#whiteBox .pic_01 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
+   .work {
+    position: relative;
+    float: left;
+    margin: 20px -10px 25px 30px;;
+   }
+
+  .work img {
+    width: 90%;
+    height: 60vw;
+    border: 0 none;
+
+  } 
+
+  .work  h3 {
     position: absolute;
-    margin-top: 50vh;
-    z-index: 20;
-    padding-left: 17vw;
-    padding-right: 17vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:4vw;  
-    font-size:2rem; 
-} 
+    bottom: 40px;
+    width: 88.8%;
+    padding:4px;
+    color:white;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-bottom: 0;
+  }
 
-.pic_02 .pic_2 {
-    max-width: 100vw;
+  a {
+      color:white;
+      text-decoration:none;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:14px;
+  }
+
+@media only screen and (max-width: 375px) {
+
+    nav li{
+        background:rgba(255, 255, 255, 0.4);
+        padding-right:15px;
+        margin-left:.5vw;
+        border-radius:15px;
+        
+    }
     
-    margin-top:2vh;
-    position: relative;
-    margin-right:1vw;
-}
+    nav ul {
+        margin-top:40vw;
+        margin-right:9vw; 
+        transition:0.3s;
+        margin-bottom:30vw; 
+        
+    }
 
-#whiteBox .pic_02 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 90vh;
-    z-index: 20;
-    padding-left: 25vw;
-    padding-right: 27vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:5vw;  
-    font-size:2rem; 
-} 
-
-.pic_03 .pic_3 {
-    max-width: 100vw;
-    float:center;
-    margin-top:5vh;
-    position: relative;
-    margin-left:1vw;  
-}
-
-#whiteBox .pic_03 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 68vh;
-    z-index: 20;
-    padding-left: 26vw;
-    padding-right: 27vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:4vw;  
-    font-size:2rem; 
-    margin-top:150vh;
-}
-
-.pic_04 .pic_4 {
-    max-width: 100vw;
+    li a {
+        color:black;
+        
+    }
     
-    margin-top:5vh;
-    position: relative;
-    margin-right:1vw;  
-}
-
-#whiteBox .pic_04 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 125vh;
-    z-index: 20;
-    padding-left: 23vw;
-    padding-right: 23vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:6vw;  
-    font-size:2rem; 
-    margin-top:210vh;
-}
-
-.pic_05 .pic_5 {
-    max-width: 100vw;
-    float:center;
-    margin-top:5vh;
-    position: relative;
-    margin-left:2vw;  
-}
-
-#whiteBox .pic_05 div a {
-    display: block;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    position: absolute;
-    margin-top: 190vh;
-    z-index: 20;
-    padding-left: 26vw;
-    padding-right: 27vw;
-    background-color: #777;
-    opacity: 0.75;  
-    margin-left:6vw;  
-    font-size:2rem; 
-    margin-top:270vh;
-}
+    h1 {
+        
+        
+        font-size:50px;
+        background: rgb(28, 42, 56);
+        height:100px;
+        margin-left:15vw;
+        border-radius: 0px 0px 20px 20px;
+        
+        text-align:center;
+        color:#ebebeb; 
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
     
+    #main-container {
+        background: url(../images/gradient_sunset.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin:0;
+        padding:0;
+        min-height: calc(100vh - 70px);
+      }
+    
+      .main-section {
+        display:inline-grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-top:4vw;
+        margin-left:2.5vw;
+        margin-right:3vw;
+        margin-bottom:27vw;
+        width:90vw;
+        background: rgba(0,0,0,0.4);
+      }
+    
+      .titlePort{
+          padding-top:30vw;
+          margin-left:-.1vw;
+        height:40vw;
+        margin-top:30vw;
+        margin-bottom:30vw;
+        font-size:30px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        background:rgba(255, 255, 255, 0.1);
+       }
+    
+       .work {
+        position: relative;
+        float: left;
+        margin: 20px -10px 25px 30px;;
+       }
+    
+      .work img {
+        width: 90%;
+        height: 60vw;
+        border: 0 none;
+    
+      } 
+    
+      .work  h3 {
+        position: absolute;
+        bottom: 40px;
+        width: 88.8%;
+        padding:4px;
+        color:white;
+        color: #fff;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        border-bottom: 0;
+      }
+    
+      a {
+          color:white;
+          text-decoration:none;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:14px;
+      }
+
+
+
+
 
 
 
