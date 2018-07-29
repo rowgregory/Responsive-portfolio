@@ -903,15 +903,17 @@ h1 {
     nav li{
         background:rgba(255, 255, 255, 0.4);
         padding-right:15px;
-        margin-left:.5vw;
+        margin-left:14vw;
         border-radius:15px;
+        
         
     }
     
     nav ul {
+        display:flex;
         margin-top:40vw;
-        margin-right:9vw; 
-        transition:0.3s;
+        margin-right:2vw; 
+        
         margin-bottom:30vw; 
         
     }
@@ -923,11 +925,11 @@ h1 {
     
     h1 {
         
-        
+        margin-top:13vw;
         font-size:50px;
         background: rgb(28, 42, 56);
         height:100px;
-        margin-left:15vw;
+        margin-left:18vw;
         border-radius: 0px 0px 20px 20px;
         
         text-align:center;
@@ -952,10 +954,10 @@ h1 {
         grid-template-columns: 1fr;
         align-items: center;
         margin-top:4vw;
-        margin-left:2.5vw;
-        margin-right:3vw;
+        margin-left:3vw;
+        /* margin-right:1vw; */
         margin-bottom:27vw;
-        width:90vw;
+        width:94vw;
         background: rgba(0,0,0,0.4);
       }
     
@@ -975,7 +977,7 @@ h1 {
        .work {
         position: relative;
         float: left;
-        margin: 20px -10px 25px 30px;;
+        margin: 20px -10px 40px 30px;;
        }
     
       .work img {
