@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> -->
     <!--Animate CSS-->
     <link rel="stylesheet" href="assets/css/animate.css">
     <!--Materialize.js-->
@@ -17,9 +16,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 
-
-
     <title>Intro Button</title>
+
 </head>
 <body>
     
@@ -38,14 +36,25 @@
 <circle cx="50" cy="50" r="25" style="stroke: rgb(127, 187, 214); fill:none; stroke-dasharray: 40 50" stroke-width="4" id=largeOuterCircle4></circle>
 <circle cx="50" cy="50" r="20" style="stroke: rgb(172, 235, 206); fill:none; stroke-dasharray: 110 50" stroke-width="1" id=largeOuterCircle5></circle>
 <circle cx="50" cy="50" r="15" style="stroke: rgb(208, 248, 203); fill:none; stroke-dasharray: 80 50" stroke-width="1" id=largeOuterCircle6></circle>
+<circle cx="50" cy="50" r="12.5" style="stroke: rgb(195, 229, 252); fill:none; stroke-dasharray: 10 15;" stroke-width="1" id=largeOuterCircle65></circle>
+<circle cx="50" cy="50" r="10" style="stroke: rgb(138, 176, 201); fill:none; stroke-dasharray: 10 15;" stroke-width="1" id=largeOuterCircle7></circle>
 
 
 
 
 </svg>
 
-<div class="containThatWelcome">
-    <button  type="submit" class="takeMeTo"><a href="portfolio.html">Welcome</a></button>
+<div class="containThatWelcome ">
+    
+    <button  type="submit" class="takeMeTo animated rotateIn"><a href="portfolio.html">
+        <div class="letters w">w</div>
+        <div class="letters e1">e</div>
+        <div class="letters l">l</div>
+        <div class="letters c">c</div>
+        <div class="letters o">o</div>
+        <div class="letters m">m</div>
+        <div class="letters e2">e</div>
+    </a></button>
 </div>
 
 <style>
@@ -99,7 +108,27 @@
     @keyframes rotate6 {
         0%{transform:rotate(-360deg)}
     }
+    #largeOuterCircle65 {
+        animation:rotate65 infinite 7s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate65 {
+        0%{transform:rotate( 360deg)}
+    }
+
+    #largeOuterCircle7 {
+        animation:rotate7 infinite 7s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate7 {
+        0%{transform:rotate( -360deg)}
+    }
     
 </style>
+
+<!--Anime.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+<!--my js-->
+<script src="assets/app.js"></script>
 </body>
 </html>

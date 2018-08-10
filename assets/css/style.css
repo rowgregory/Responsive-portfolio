@@ -43,7 +43,7 @@ span a{
 .takeMeTo{
     background: #234;
     border:none;
-    
+    float:right;
     background: transparent;
     font-size:4vw;
     font-family:Arial, Helvetica, sans-serif;
@@ -51,19 +51,68 @@ span a{
     
     
 }
+.w{
+    float:left;
+    color:rgb(67, 92, 133);
+}
+.e1{
+    float:left;
+    color:rgb(90, 122, 172);
+}
+.l{
+    float:left;
+    color:rgb(123, 163, 226);
+}
+.c{
+    float:left;
+    color:rgb(165, 170, 238);
+}
+.o{
+    float:left;
+    color:rgb(146, 152, 235);
+}
+.m{
+    float: left;
+    color:rgb(111, 118, 209);
+}
+.e2{
+    float:left;
+    color:rgb(100, 106, 184);
+}
 .containThatWelcome{
     display:flex;
     justify-content: center;
-    margin-top:-52vw;
+    
+    margin-top:-53vw;
     
 }
-.takeMeTo:focus{
+/* .takeMeTo:focus{
+    
     background:rgb(248, 248, 248);
     border-radius: 50%;
     height:20vw;
     width:20vw;
 
-}
+} */
+
+
+
+/* #largeOuterCircle7 {
+    visibility: hidden;
+    
+} */
+
+/* .takeMeTo:hover + #largeOuterCircle7 {
+    visibility: visible;
+} */
+
+
+
+
+
+
+    
+
 
 
 
