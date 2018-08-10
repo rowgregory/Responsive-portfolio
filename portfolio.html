@@ -7,72 +7,98 @@
     <title> Responsive Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </head>
 
 <body>
-    <header>
 
-        <div id="container">
-            <strong><h1>Gregory<br>
-             Row</h1></strong>
-            <nav>
-                <ul>
-                    <li margin-right: 0px;><a href ="index.html">About</li></a>
-                    <li margin-right: 0px;><a href="portfolio.html">Portfolio</li></a>
-                    <li margin-right: 0px;><a href ="contact.html">Contact</li></a>
+    <nav class="blue" style="margin:0px">
+        <div class="container blue darken-3">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left hand-on-sm-and-down">Gregory Row</a>
+                <ul id="nav-mobile" class="right hand-on-med-and-down">
+                    <li><a href ="index.html">About</li></a>
+                    <li><a href="portfolio.html">Portfolio</li></a>
+                    <li><a href ="contact.html">Contact</li></a>
                 </ul>
-            </nav>
+            </div>
         </div>
-
-    </header>
-
-    
-        <div id="mainContainer">
-            <section class="main-section">
-                <h2 class="titlePort">Portfolio</h2><br>
-            
-                
-            
-                <div class="work">
-                    <img class="hey" src="assets/images/sonic_generations_gif.gif">
-                     <h3><a href= "https://rowgregory.github.io/Word-Guess-Game/">Word Guess Game</a></h3>
+    </nav>
+  
+    <div class="container">
+    <h2 class="titlePort">Portfolio</h2><br>   
+        <div class="row">
+            <div class="col s12 m6 z-depth-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/sonic_wallpaper.jpg">
+                        <span class="card-title opacity" style="width:100%"><a href= "https://rowgregory.github.io/Word-Guess-Game/">Word Guess Game</a></span>  
+                    </div>
                 </div>
-            
-                <div class="work">    
-                    <img class="hey"src="assets/images/dino3D2.jpg">
-                    <h3><a href= "https://rowgregory.github.io/unit-4-game/" >Unit-4-Game</a></h3>
+            </div>
+            <div class="col s12 m6 z-depth-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/dino3D2.jpg">
+                        <span class="card-title opacity" style="width:100%"><a href="https://rowgregory.github.io/unit-4-game/">Crystal Collector</a></span>
+                    </div>
                 </div>
-
-                <div class="work">  
-                    <img class="hey"src="assets/images/finishedMessageLost.gif">
-                    <h3><a href="https://rowgregory.github.io/Trivia-Game/">Trivia Game</a></h3>
-                </div>
-                
-                <div class="work">  
-                    <img class="hey" src="assets/images/colorful_wallpaper.jpg">
-                    <h3><a href="https://rowgregory.github.io/gifTastic/">gifTastic</a></h3>
-                </div>
-
-                <div class="work">
-                    <img src="assets/images/train_1.jpg">
-                    <h3><a href="https://rowgregory.github.io/Train-Scheduler/">Train-Scheduler</a></h3>
-                </div>
-                
-                
-
-            </section>
+            </div>
         </div>
-
-    
-
+        <div class="row">
+            <div class="col s12 m6 z-depth-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/lost_wallpaper.jpg">
+                        <span class="card-title opacity" style="width:100%"><a href="https://rowgregory.github.io/Trivia-Game/">Trivia Game</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 z-depth-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/colorful_wallpaper.jpg">
+                        <span class="card-title opacity" style="width:100%"><a href="https://rowgregory.github.io/gifTastic/">gifTastic</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 z-depth-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/train_1.jpg">
+                        <span class="card-title opacity" style="width:100%"><a href="https://rowgregory.github.io/Train-Scheduler/">Train Scheduler</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 z-depth-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/galaxy1.jpg">
+                        <span class="card-title opacity" style="width:100%"><a href="https://scottasawyer.github.io/RockIT/">rock-IT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="blue_box"></div>
 
-    <footer>
-        <br>
-        <br>Copyright©</footer>
+    <footer class="page-footer grey darken-3">
+        <div class="container grey darken-1">
+            <div class="row">
+                <div class="col 16 s12">
+                    <h5 class="white-text">Copyright©</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
-
 </html>

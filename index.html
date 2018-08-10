@@ -3,46 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio</title>
+    <!--CSS Reset-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Our CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+
+
+    <title>Responsive Portfolio</title>
 </head>
 
 
 <body>
 
-    <header>
-
-        <div id="container">
-            <strong><h1>Gregory<br>
-                 Row</h1></strong>
-            <nav>
-                <ul>
+    <nav class="blue" style="margin:0px">
+        <div class="container blue darken-3">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left hand-on-sm-and-down">Gregory Row</a>
+                <ul id="nav-mobile" class="right hand-on-med-and-down">
                     <li><a href ="index.html">About</li></a>
                     <li><a href="portfolio.html">Portfolio</li></a>
                     <li><a href ="contact.html">Contact</li></a>
                 </ul>
-            </nav>
+            </div>
         </div>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/gradient_blue_eppora.jpg"></div>
+    </div> 
+       
+    <div class="section">
+        <div class="row container">
+            <h2 class="header">About Me</h2>
+            <p class="grey-text text-darken-3 lighten-3">Hello my Name is Gregory Row and I am an aspiring video game programmer. All my life i've had the pleasure playing video games across multiple consoles and platforms and have been able to watch the industy grow into what it is today. Playing a crucial role in creating video games as we know them today would be a dream come true.<br>
+            <p>In 2013 I graduated from Salem State Univeristy with a Bachelor of Science degree concentration in Marketing. Marketing wasn't my passion as I finished the program, but grasping the knowledge and understanding of what it takes to run a business was a good set of skills to obtain.  Since then I've worked at Coldwell Bankers regional corportate office working in the E-team office. I also worked at a couple restaurants waiting tables and managing guests. Once this bootcamp course is over I plan on completely moving into the coding world with a job that I can be proud of.</p>
+            <p>Favorite hobbies include singing, working out, going on roller coasters, and of course playing video games. Singing is definitely my number one passion. I've been singing since I was 2. My favorite video games character is Sonic the Hedgehog and he should be yours too!</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/gradient_green_purple.jpg"></div>
+    </div> 
+            
+       
 
-    </header>
-
-    
-
-        <div id="mainContainer2">
-            <section class="main-section">
-            <h2 class="titlePort">About Me</h2><br>
-        
-            <div class="align">
-            <img class="pic" src="assets/images/Me.jpg">
-            <div class="bio">                
-                <p>Hello my Name is Gregory Row and I am an aspiring video game programmer. All my life i've had the pleasure playing video games across multiple consoles and platforms and have been able to watch the industy grow into what it is today. Playing a crucial role in creating video games as we know them today would be a dream come true.<br>
-                <p>In 2013 I graduated from Salem State Univeristy with a Bachelor of Science degree concentration in Marketing. Marketing wasn't my passion as I finished the program, but grasping the knowledge and understanding of what it takes to run a business was a good set of skills to obtain.  Since then I've worked at Coldwell Bankers regional corportate office working in the E-team office. I also worked at a couple restaurants waiting tables and managing guests. Once this bootcamp course is over I plan on completely moving into the coding world with a job that I can be proud of.</p>
-                <p>Favorite hobbies include singing, working out, going on roller coasters, and of course playing video games. Singing is definitely my number one passion. I've been singing since I was 2. My favorite video games character is Sonic the Hedgehog and he should be yours too!</p>
-            </div>
-            </div>
-            </section>
-        </div> 
 
     
 
@@ -51,9 +60,12 @@
     
     <footer>
         <br>
-        <br>Copyright©</footer>
+        <br>Copyright©
+    </footer>
 
-
+    <!--js file-->
+    <script scr="assets/app.js"></script>
+    
 </body>
 
 
