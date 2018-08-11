@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+      
+
     $('.takeMeTo').on('click', function(e) {
         console.log("clicked");
         e.preventDefault();
@@ -29,12 +31,6 @@ $(document).ready(function () {
             complete: function() {
                 $('div.w').hide();
             }
-
-            
-            // translateX: [
-            //     { value: 200, duration: 1000, elasticity: 0,
-            //     delay:6000 },
-            //     ],
         })
         .add({
             targets: 'div.e1',
@@ -141,4 +137,5 @@ $(document).ready(function () {
             $('#largeOuterCircle65').toggle();
         })
 })
+
        

@@ -7,11 +7,7 @@ body {
     margin:0;
     padding:0;
 }
-.brand-logo {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top:2vw;
 
-}
 .container {
     
     margin-bottom: 5vw;
@@ -19,9 +15,12 @@ body {
 .opacity {
     background:rgba(12, 12, 12, 0.5)
 }
-/* nav-wrapper{
-    margin-bottom:5vw;
-} */
+.brand-logo{
+    color:white;
+    
+    font-size:45px;
+    
+}
 span a{
     color:white;
     opacity: 1;
@@ -31,17 +30,15 @@ span a{
 .card-title {
     text-align:center;
 }
-.right{
-    margin-top:3vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 ._row1{
     margin-top:4vw;
 }
 .blue_box {
     height: 5px;
     width: 100%;
-    background-color: #217DB1;  
+    background-color: #217DB1; 
+    
 }
 
 .page-footer {
@@ -98,10 +95,46 @@ span a{
 .containThatWelcome{
     display:flex;
     justify-content: center;
-    
     margin-top:-53vw;
+}
+
+img{
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.s4{
+    margin-top:5vw;
     
 }
+
+h3, ul{
+    text-align:center;
+    margin-top:3vw;
+    margin-bottom:9vw;
+
+}
+.bio_container{
+    margin-top:5vw;
+    
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-indent:4vw;
+    line-height:30px;
+}
+.effects{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+
+
+
+
+
+
+
+
 /* .takeMeTo:focus{
     
     background:rgb(248, 248, 248);
