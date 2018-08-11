@@ -1,15 +1,14 @@
 body {
-    
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
     margin:0;
     padding:0;
+    min-height: 100vh;
 }
 
 .container {
-    
     margin-bottom: 5vw;
 }
 .opacity {
@@ -17,42 +16,35 @@ body {
 }
 .brand-logo{
     color:white;
-    
     font-size:45px;
-    
 }
 span a{
     color:white;
     opacity: 1;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .card-title {
     text-align:center;
 }
-
 ._row1{
     margin-top:4vw;
 }
+.skillSet{
+    font-size:4.5vw;
+}
 .blue_box {
-    height: 5px;
+    margin-top:-20px;
+    height: 10px;
     width: 100%;
-    background-color: #217DB1; 
-    
+    background-color: #217DB1;    
 }
-
-.page-footer {
-    background: #234;
-}
-
 .card {
-   
     padding:20px;
     background: url(../images/gradient_green_purple.jpg);
 }
-
-
-
+.main-section{
+    margin-top:15vw;
+}
 .takeMeTo{
     background: #234;
     border:none;
@@ -60,9 +52,7 @@ span a{
     background: transparent;
     font-size:4vw;
     font-family:Arial, Helvetica, sans-serif;
-    color:black;
-    
-    
+    color:black;  
 }
 .w{
     float:left;
@@ -103,1188 +93,78 @@ img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .s4{
-    margin-top:5vw;
-    
+    margin-top:5vw;  
 }
-
 h3, ul{
     text-align:center;
     margin-top:3vw;
     margin-bottom:9vw;
-
 }
 .bio_container{
-    margin-top:5vw;
-    
+    margin-top:5vw; 
     font-size:14px;
     font-family:Arial, Helvetica, sans-serif;
     text-indent:4vw;
     line-height:30px;
 }
 .effects{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.indexRow{
+    margin-top:5vw;
     
 }
-
-
-
-
-
-
-
-
-
-/* .takeMeTo:focus{
-    
-    background:rgb(248, 248, 248);
-    border-radius: 50%;
-    height:20vw;
-    width:20vw;
-
-} */
-
-/* .takeMeTo:hover{
-    background: rgba(0, 0, 0, 0.5);
-} */
-
-/* #largeOuterCircle7 {
-    visibility: hidden;
-    
-} */
-
-/* .takeMeTo:hover + #largeOuterCircle7 {
-    visibility: visible;
-} */
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* old css =================================================================*/
-
-/* body {
-    max-width: 100%;
-    margin:auto;  
-} */
-
-/* header {
-    width: auto;
-    background-image: url(assets/images/gradient.jpeg);
-    height: 75px;
-    margin: 0px;     
-} */
-
-/* header {
-        
-    background: rgb(28, 42, 56);
-    height: 53px;
-            
-} */
-
-
-
-/* nav {
-    float:right;   
-} */
-
-/* li a{
-    text-decoration: none;
-    color: rgb(48, 167, 37);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:16px;
-    
-} */
-    
-
-
-
-
-
-
-
-
-
-/* img {
-    max-height: 320px;
-    float:left;
-    padding: 14px 18px 18px 25px;
-    z-index: 10;
-} */
-
-/*
-
-footer {
-    position: fixed;
-    left:0px;
-    bottom: 0px;
-    width: 100%;
-    background-color: #666666;
-    text-align: center;
-    height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    z-index:30;
-}
-
-
-
-
-@media only screen and (max-width: 2500px) { */
-
-/*---------------contact.html---------------------------------------!2500!--------contact.hmtl----------*/
-    
-
-  
-
-    /* .changeMe {
-        background-color: rgb(98, 132, 167);
-        transition:1s;
-    }
-
-    #formBox {
-        height: 500px;
-        background: url(assets/images/gradient_silver.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 20px 20px 100px 20px;
-        padding-left: 20px;
-        padding-top: 15px;
-        font-size: 28px;
-        font-family:Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        transition:1s;
-    }
-
-    .formTxt  {
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black;
-        transition:1s;
-    }
-
-    input[type=text] {
-        width:155px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 2px;
-        font-size: 16px;
-        background-color: white;
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 10px 12px 25px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    input[type=text]:focus {
-        width: 95%;
-        border: 3px solid rgb(51, 50, 50);
-    }
-
-    #name {
-        padding-bottom:18px;
-    }
-
-    #email {
-        padding-bottom:18px;
-    }
-
-    #message {
-        padding-bottom:18px;
-    }
-
-    textarea[name=textarea] {
-        width: 94%;
-        height:7rem;
-    }
-
-    input[type=submit] {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:16px;
-        background-color:#217DB1;
-        border:2px solid #777;
-        padding:5px;  
-    } */
-
-    /*------------index.html------------------------------!2500!------------------index.html------------*/
-    /* .pic {
-        width:30vw;
-        margin:0 auto;
-    }
-
-    .bio {
-        width:80vw;
-        text-indent:7vw;
-        margin:0 auto;
-        line-height:9vw;
-        margin-top:  30vw;
-        margin-bottom:  30vw;
-        
-    } */
-
-
-    
-
-    /*-------------portfolio.html----------------------------------------!2500!-----------portfolio.html--*/
-
-
-    /* nav li{
-        background: #234;
-        padding:18px;
-        margin-left:7vw;
-        border-radius:15px;
-        
-    }
-
-    nav ul {
-        margin-right:16vw;   
-    }
-
-    h1 {
-        padding:10px 30px 0px 30px;
-        font-size:32px;
-        background: rgb(28, 42, 56);
-        height:43px;
-        margin-left: 4vw;
-        
-        text-align:center;
-        color:#ebebeb; 
-        font-family: Arial, Helvetica, sans-serif;
-        float: left; 
-    } */
-
-    /* #main-container {
-        background: url(../images/gradient_silverblue.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-        margin:0;
-        padding:0;
-        min-height: calc(100vh - 70px);
-      }
-      
-      .main-section {
-        display:inline-grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        margin-top:4vw;
-        margin-left:4vw;
-        margin-right:3vw;
-        margin-bottom:7vw;
-        width:80vw;
-        background: rgba(0,0,0,0.4);
-      }
-      
-      .titlePort{
-        margin-left:28px;
-        margin-top:10px;
-        font-size:4vw;
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        color:white;
-       }
-
-      .work {
-        position: relative;
-        float: left;
-        margin: 20px -10px 25px 30px;;
-       }
-
-      .work img {
-        width: 90%;
-        height: 25vw;
-        border: 0 none;
-
-      } 
-
-      .work  h3 {
-        position: absolute;
-        bottom: 40px;
-        width: 88.8%;
-        padding:4px;
-        color:white;
-        color: #fff;
-        text-align: center;
-        background: rgba(0,0,0,0.5);
-        border-bottom: 0;
-      }
-
-      a {
-          color:white;
-          text-decoration:none;
-          font-family:Arial, Helvetica, sans-serif;
-          font-size:14px;
-      }
-    } */
-
-/* @media only screen and (max-width: 980px) { */
-
-    /*-----------contact.html-------------------------------------!980!-----------contact.html-------------*/
-
-    /* .changeMe {
-        background-color: #777;
-        transition:1s;
-    }
-
-    #formBox {
-        height: 500px;
-        background: url(https://wallpapercave.com/wp/pmhRTcZ.jpg);
-        margin: 20px 20px 100px 20px;
-        padding-left: 20px;
-        padding-top: 15px;
-        font-size: 28px;
-        font-family:Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        transition:1s;
-    }
-
-    .formTxt  {
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black;
-        transition:1s;
-    }
-
-    input[type=text] {
-        width:155px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 2px;
-        font-size: 16px;
-        background-color: white;
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 10px 12px 25px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    input[type=text]:focus {
-        width: 95%;
-        border: 3px solid rgb(51, 50, 50);
-    }
-
-    #name {
-        padding-bottom:18px;
-    }
-
-    #email {
-        padding-bottom:18px;
-    }
-
-    #message {
-        padding-bottom:18px;
-    }
-
-    textarea[name=textarea] {
-        width: 94%;
-        height:7rem;
-    }
-
-    input[type=submit] {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:14px;
-        background-color:rgb(6, 57, 87);
-        color:white;
-        border-radius:12px;;
-        padding:3vw;  
-        margin-bottom:5vw;
-    } 
-    } */
-
-    /*------------index.html----------------------------------(988)-----*/
-
-
-    /* .pic {
-        width:60vw;
-        margin:0 auto;
-    }
-
-    .bio {
-        width:80vw;
-        text-indent:7vw;
-        margin:0 auto;
-        line-height:9vw;
-        margin-top:  30vw;
-        margin-bottom:  30vw;
-        
-    } */
-
-    
-
-    
-
-    /*-------------portfolio.html---------------------------------------!988!-------portfolio.html------*/
-
-    /* nav li{
-        background: #234;
-        padding:18px;
-        margin-left:3vw;
-        border-radius:15px;
-        
-    }
-
-    nav ul {
-        margin-right:4vw; 
-        transition:0.3s;  
-    }
-
-    h1 {
-        margin-top:3vw;
-        padding:10px 30px 0px 30px;
-        font-size:32px;
-        background: rgb(28, 42, 56);
-        height:43px;
-        margin-left: 4vw;
-        border-radius: 0px 0px 20px 20px;
-        text-align:center;
-        color:#ebebeb; 
-        font-family: Arial, Helvetica, sans-serif;
-        float: left; 
-    }
-
-    #main-container {
-        background: url(../images/gradient_blue_eppora.jpg);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-        margin:0;
-        padding:0;
-        min-height: calc(100vh - 70px);
-      }
-  
-      .main-section {
-        display:inline-grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        margin-top:4vw;
-        margin-left:4vw;
-        margin-right:3vw;
-        margin-bottom:7vw;
-        width:90vw;
-        background: rgba(0,0,0,0.4);
-      }
-
-      .titlePort{
-        margin-left:28px;
-        margin-top:15px;
-        font-size:4vw;
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        color:white;
-       }
-
-       .work {
-        position: relative;
-        float: left;
-        margin: 20px -10px 25px 30px;;
-       }
-
-      .work img {
-        width: 80%;
-        height: 35vw;
-        border: 0 none;
-
-      } 
-
-      .work  h3 {
-        position: absolute;
-        bottom: 40px;
-        width: 88.8%;
-        padding:4px;
-        color:white;
-        color: #fff;
-        text-align: center;
-        background: rgba(0,0,0,0.5);
-        border-bottom: 0;
-      }
-
-      a {
-          color:white;
-          text-decoration:none;
-          font-family:Arial, Helvetica, sans-serif;
-          font-size:14px;
-      } */
-    
-  
- 
-  
-
-
-    
-
-/* @media only screen and (max-width: 768px) { */
-
-    /*-----------contact.html-------------------------------!768!----------------contact.html--------------*/
-
-    /* .changeMe {
-        background-color: #777;
-        transition:1s;
-    }
-
-    #formBox {
-        height: 500px;
-        background: url(https://wallpapercave.com/wp/pmhRTcZ.jpg);
-        margin: 20px 20px 100px 20px;
-        padding-left: 20px;
-        padding-top: 15px;
-        font-size: 28px;
-        font-family:Arial, Helvetica, sans-serif;
-        color:#217DB1;
-        transition:1s;
-    }
-
-    .formTxt  {
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black;
-        transition:1s;
-    }
-
-    
-
-    input[type=text] {
-        width:155px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 2px;
-        font-size: 16px;
-        background-color: white;
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 10px 12px 25px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    input[type=text]:focus {
-        width: 95%;
-        border: 3px solid rgb(51, 50, 50);
-    }
-
-    #name {
-        padding-bottom:18px;
-    }
-
-    #email {
-        padding-bottom:18px;
-    }
-
-    #message {
-        padding-bottom:18px;
-    }
-
-    textarea[name=textarea] {
-        width: 94%;
-        height:7rem;
-    }
-
-    input[type=submit] {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:14px;
-        background-color:rgb(6, 57, 87);
-        color:white;
-        border-radius:12px;;
-        padding:3vw;  
-        margin-bottom:5vw;
-    } 
-    } */
-
-    /*---------------Index.html--------------------------------!768!---------------Index.html-------------*/
-
-    /* .pic {
-        margin:4vw;
-        width:35vw;
-        float:left;
-        
-    }
-
-    .bio {
-        font-size:14px;
-        width:90vw;
-        text-indent:7vw;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height:4vw;
-        margin-top:3vw;
-        margin-bottom:  20vw;
-        
-    } */
-    
-
-    
-
-/*----------------portfolio.html--------------------------!768!---------------portfolio.html----------*/
-
-
-/* nav li{
-    background: #234;
-    padding-right:20px;
-    margin-left:.2vw;
-    border-radius:15px;
-    color:white;
-    
-}
-
-nav ul {
-    margin-right:2vw; 
-    transition:0.3s;  
-    
-}
-
-h1 {
-    padding:10px 30px 0px 30px;
-    font-size:32px;
-    background: rgb(28, 42, 56);
-    height:100px;
-    margin-left: 4vw;
-    
-    text-align:center;
-    color:#ebebeb; 
-    font-family: Arial, Helvetica, sans-serif;
-    float: left; 
-}
-
-#main-container {
-    background: url(../images/gradient_rainbow.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
-    margin:0;
-    padding:0;
-    min-height: calc(100vh - 70px);
-  }
-
-  .main-section {
-      padding:2vw;
-    display:inline-grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin-top:4vw;
-    margin-left:3vw;
-    margin-right:3vw;
-    margin-bottom:7vw;
-    width:90vw;
-    background: rgba(0,0,0,0.4);
-  }
-
-  .titlePort{
-    margin-left:28px;
-    margin-top:15px;
-    font-size:4vw;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-   }
-
-   .work {
-    position: relative;
-    float: left;
-    margin: 20px -10px 25px 30px;;
-   }
-
-  .work img {
-    width: 90%;
-    height: 35vw;
-    border: 0 none;
-
-  } 
-
-  .work  h3 {
-    position: absolute;
-    bottom: 40px;
-    width: 88.8%;
-    padding:4px;
-    color:white;
-    color: #fff;
-    text-align: center;
-    background: rgba(0,0,0,0.5);
-    border-bottom: 0;
-  }
-
-  a {
-      color:white;
-      text-decoration:none;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size:14px;
-  } */
-
-
- 
-
-
-    
-
-/* @media only screen and (max-width: 640px) { */
-
-    /*-----------contact.html-----------------------------------------------!640!------------contact.html---*/
-
-    
-
-    /* #formBox {
-        width:82vw;
-        height: 500px;
-        background: url(https://wallpapercave.com/wp/pmhRTcZ.jpg);
-        margin: 70px 30px 100px 20px;
-        padding-left: 20px;
-        padding-top: 15px;
-        font-size: 28px;
-        font-family:Arial, Helvetica, sans-serif;
-        color:rgb(26, 90, 128);
-    }
-
-    .formTxt  {
-        width:20vw;
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black;
-    }
-        
-
-    input[type=text] {
-        width:155px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 2px;
-        font-size: 16px;
-        background-color: white;
-        
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 10px 12px 25px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    input[type=text]:focus {
-        width: 95%;
-        border: 3px solid rgb(51, 50, 50);
-    }
-
-    #name {
-        padding-bottom:18px;
-        
-    }
-
-    #email {
-        padding-bottom:18px;
-    }
-
-    #message {
-        padding-bottom:18px;
-        
-    }
-
-    textarea[name=textarea] {
-        width: 94%;
-        height:7rem;
-    }
-
-    input[type=submit] {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:16px;
-        background-color:rgb(26, 90, 128);
-        border:2px solid #777;
-        padding:5px;  
-    } */
-
-    /* input[type=submit] {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:14px;
-        background-color:rgb(6, 57, 87);
-        color:white;
-        border-radius:12px;;
-        padding:3vw;  
-        margin-bottom:5vw;
-    } */
-
-
-    /*-----------index.hmtl---------------------------------------!640!----------index.html------------*/
-
-    
-    /* .pic {
-        display: inline-block;
-        width:50vw;
-        margin-top:20vw;;
-        margin-left:20vw;
-        align-items: center;
-    }
-
-    .bio {
-        
-        font-family:Arial, Helvetica, sans-serif;
-        width:60vw;
-        text-indent:7vw;
-        margin-left: 16vw;
-        line-height:5vw;
-        margin-top:  30vw;
-        margin-bottom:  30vw;
-        
-    } */
-
-   
-
-   
-
-    
-   
-
-/*-------------portfolio.html-------------------------------!640!--------------portfolio.html------------*/
-
-
-
-/* nav li{
-    background: #234;
-    padding-right:15px;
-    margin-left:.5vw;
-    border-radius:15px;
-    
-}
-
-nav ul {
-    margin-right:4vw;
-      
-    
-}
-
-h1 {
-    margin-top:3vw;
-    padding:10px 30px 0px 30px;
-    font-size:40px;
-    background: rgb(28, 42, 56);
-    height:100px;
-    margin-left: 4vw;
-    border-radius: 0px 0px 20px 20px;
-    text-align:center;
-    color:#ebebeb; 
-    font-family: Arial, Helvetica, sans-serif;
-    float: left; 
-}
-
-
-#maincontainer {
-    background: url(../images/gradient_green_blue_horizon.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
-    margin:0;
-    padding:0;
-    min-height: calc(100vh - 70px);
-  }
-  
-
-  .main-section {
-    display:inline-grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+.page-footer{
     margin-top:10vw;
-    margin-left:3.5vw;
-    margin-right:3vw;
-    margin-bottom:17vw;
-    width:90vw;
-    background: rgba(0,0,0,0.4);
-  } */
+}
 
-  /* .titlePort{
-        text-align:center;
-        left:-9vw;
-        padding:35vw;
-        height:10vw;
-        width:30vw;
-        margin-top:40vw;
-        margin-bottom:40vw;
-        font-size:30px;
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black;
-        background:rgba(255, 255, 255, 0.1);
-       } */
+/* burger bar ===============================================*/
 
-  /* .work {
-    position: relative;
-    float: left;
-    margin: 20px -10px 25px 30px;;
-   }
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+float: right;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 0px 12px;
+text-decoration: none;
+font-size: 17px;
+}
+.fa-bar{
+    overflow:hidden;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
 
-  .work img {
-    width: 90%;
-    height: 38vw;
-    border: 0 none;
-
-  } 
-
-  .work  h3 {
+.active {
+background-color: #4CAF50;
+color: white;
+}
+.topnav .icon {
+display: none;
+}
+@media screen and (max-width: 600px) {
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+}
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
     position: absolute;
-    bottom: 40px;
-    width: 88.8%;
-    padding:4px;
-    color:white;
-    color: #fff;
-    text-align: center;
-    background: rgba(0,0,0,0.5);
-    border-bottom: 0;
-  }
-
-  a {
-      color:white;
-      text-decoration:none;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size:14px;
-  }
-} */
-
-/* @media only screen and (max-width: 375px) {
-
-    body {
-        margin:0; */
-    
-
-/*================================About Me =============================375 ====*/
-    /* .pic {
-        width:70vw;
-        margin:0 auto;
-        margin-left:12vw;
-    }
-
-    .bio {
-        width:80vw;
-        text-indent:7vw;
-        margin:0 auto;
-        line-height:9vw;
-        margin-top:  30vw;
-        margin-left:8vw;
-        margin-bottom:  30vw;
-        
-    } */
-
-
-
-    /* ===============================portfolio==========================375===*/
-
-    /* nav li{
-        background:rgba(255, 255, 255, 0.4);
-        padding-right:15px;
-        margin-left:14vw;
-        border-radius:15px;
-        
-        
-    }
-    
-    nav ul {
-        display:flex;
-        margin-top:40vw;
-        margin-right:2vw; 
-        
-        margin-bottom:30vw; 
-        
-    }
-
-    li a {
-        color:black;
-        
-    }
-    
-    h1 {
-        margin-top:13vw;
-        font-size:50px;
-        background: rgb(28, 42, 56);
-        height:100px;
-        margin-left:17vw;
-        border-radius: 0px 0px 20px 20px;
-        text-align:center;
-        color:#ebebeb; 
-        font-family: Arial, Helvetica, sans-serif; 
-    }
-    */
-    /* #mainContainer {
-        background: url(../images/gradient_sunset.jpg);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-        margin:0;
-        padding:0;
-        min-height: calc(100vh - 70px);
-      }
-
-      
-    
-      .main-section {
-        display:inline-grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        margin-top:4vw;
-        margin-left:1vw;
-        margin-right:1vw;
-        margin-bottom:40vw;
-        
-        width:100%;
-        background: orange;
-      }
-    
-      .titlePort{
-        text-align:center;
-        left:-9vw;
-        padding:35vw;
-        height:10vw;
-        width:30vw;
-        margin-top:40vw;
-        margin-bottom:40vw;
-        font-size:30px;
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black;
-        background:rgba(255, 255, 255, 0.1);
-       }
-    
-       .work {
-        position: relative;
-        float: left;
-        width:102vw;
-        
-        margin-left:1vw;
-        
-       }
-    
-       .work img {
-        width: 90%;
-        height: 70vw;
-        border: 0 none;
-        margin:0 auto;
-       }
-      .work  h3 {
-        position: absolute;
-        bottom: 30px;
-        width: 88.1%;
-        padding:4px;
-        color:white;
-        color: #fff;
-        text-align: center;
-        background: rgba(0,0,0,0.5);
-        border-bottom: 0;
-      }
-    
-      a {
-          color:white;
-          text-decoration:none;
-          font-family:Arial, Helvetica, sans-serif;
-          font-size:14px;
-      }  */
-
-      /* Contact =========================================== 375=============*/
-
-   
-
-    
-
-    /* .formTxt  {
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:black; 
-    }
-
-    .headings {
-        margin:1.5vw;
-        
-    }
-
-    input {
-        margin-top:3vw;
-    }
-
-    input[type=text] {
-        width:155px;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 2px;
-        font-size: 16px;
-        background-color: white;
-        background-position: 10px 10px; 
-        background-repeat: no-repeat;
-        padding: 12px 10px 12px 25px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    input[type=text]:focus {
-        width: 83.4%;
-        border: 3px solid rgb(51, 50, 50);
-    }
-
-    textarea {
-        margin-top:3vw;
-    }
-
-    textarea[name=textarea] {
-        width: 38%;
-        height:7rem;
-    }
-
-    textarea[name=textarea]:focus {
-        width: 82%;
-        border: 3px solid rgb(51, 50, 50);
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    input[type=submit] {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:14px;
-        background-color:rgb(6, 57, 87);
-        color:white;
-        border-radius:12px;;
-        padding:3vw;  
-        margin-bottom:5vw;
-    }
-
-
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+}
